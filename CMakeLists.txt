@@ -9,6 +9,5 @@ include_directories(src)
 add_executable(Math)
 
 target_sources(Math 
-    src/main.cpp
-
+    entry/Entry.cpp
 )
